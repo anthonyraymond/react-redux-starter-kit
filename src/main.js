@@ -29,11 +29,13 @@ const history = syncHistoryWithStore(browserHistory, store, {
 // ========================================================
 // Developer Tools Setup
 // ========================================================
+/*
 if (__DEBUG__) {
   if (window.devToolsExtension) {
     window.devToolsExtension.open()
   }
 }
+*/
 
 // ========================================================
 // Render Setup
